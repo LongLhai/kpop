@@ -1,0 +1,206 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background-image: url(https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.15752-9/349421254_660853489199533_2520541712339976208_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFw1oXM3iNtqOrEuAXEl_9RR2ulgI00KN1Ha6WAjTQo3Reu-GXhuN_f_VMCW5E0Ve8DrLBHL4-WIPVAoL7y2Bup&_nc_ohc=ReelVd8ektwAX8czPfP&_nc_ht=scontent.fbkk12-2.fna&oh=03_AdTsPrZd1GG7F4PVHUG6OXPExk1vFBq_-IHh9nHWmyIxeg&oe=6497E780);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+   display: flex;
+   justify-content: center;
+   align-items: top;
+}
+
+nav{
+    padding: 25px 80px;
+    border-radius: 10px;
+}
+nav ul{
+   display: flex;
+}
+nav ul li {
+    list-style: none;
+    
+}
+nav ul li{
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0 100px;
+    font-family: Arial;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    color: white;
+}
+nav a::after{
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 5px;
+    background: linear-gradient(to right,white,white);
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25px;
+    transition: .4s;
+}
+nav a:hover::after{
+    width: 50%;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    display: block;
+}
+.content .header .card{
+    width: 50%;
+    position: relative;
+}
+.content .header{
+    color: white;
+}
+.content .header h3{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    letter-spacing: 0px;
+}
+.content .header h1{
+    font-size: 4rem;
+}
+.grid-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+}
+.grid-card .box1{
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: 0.4s;
+    position: relative;
+}
+.grid-card .box2{
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: 0.4s;
+    position: relative;
+}
+.grid-card .box3{
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: 0.4s;
+    position: relative;
+}
+.grid-card .box4{
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: 0.4s;
+    position: relative;
+}
+
+.grid-card .box5{
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: 0.4s;
+    position: relative;
+}
+.grid-card .box6{
+    width: 50%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: 0.4s;
+    position: relative;
+}
+.box1{
+    background: url(https://scontent.fbkk12-4.fna.fbcdn.net/v/t1.15752-9/349661147_767816515004463_2919432944903307815_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEN2imaAXqKtZvg-dgrwHdrmH1qxROzE6eYfWrFE7MTpxpkHnjgm9RLjRwufi_yEvJoumoLrG0jhXl6cfUap-CQ&_nc_ohc=9iWNlWLrTIkAX_smQhS&_nc_ht=scontent.fbkk12-4.fna&oh=03_AdTbGAQH7I5ZdWphimNigTjzinm06_2Pp2-R8x3FIA6bdA&oe=6497E00A)
+    
+}
+.box2{
+    background-image: url(https://scontent.fbkk9-2.fna.fbcdn.net/v/t1.15752-9/349211451_764772415140979_1851879096410644964_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeE0_K0SQPx5lPyGKtIWZOl2UdJu8TsNtTtR0m7xOw21O4p78W3d5viwnkKdWDiui-qRjplZSk0_XRdSib8zyjV3&_nc_ohc=WidwJI94aHAAX_eSWRn&_nc_ht=scontent.fbkk9-2.fna&oh=03_AdT7_5rtbdlahKUdzquDMtC_s8qyHbLRqsc8W-3aTLA9Dw&oe=6497C560);
+    
+}
+.box3{
+    background-image: url(https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.15752-9/349440811_649604836980754_5590481406412068208_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH1LHkEcbLazzqKOyVBGovRtVuqVyVMWAS1W6pXJUxYBOSfMujnsZWiZy3UQe3PFvSO1ik9tXWsW1O5-UESfLCD&_nc_ohc=_U0UyNAfdScAX9FgdNG&_nc_ht=scontent.fbkk12-2.fna&oh=03_AdQI3Ap1WShBnCxvmWqN07vOKaO_iNQE5OOf93v5GK_IQA&oe=6497F5FA);
+}
+.box4{
+    background-image: url(https://scontent.fbkk9-2.fna.fbcdn.net/v/t1.15752-9/349222195_760213339173385_5118476872705048368_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH9KPanaFj3VjTq6FIbXBfMXG4b4jk-3NZcbhviOT7c1vBWnFhfcOtAV5ygMKBbhht9b7GWhAF_tMZ07IdmUTAg&_nc_ohc=swDNC2uWna4AX9yZxha&_nc_ht=scontent.fbkk9-2.fna&oh=03_AdRoMWMvaVJ4qxlOY0oBZ9Js_hXxddhnAG-82BbmSD9u9Q&oe=6497DC98);
+    
+}
+.box5{
+    background-image: url(https://scontent.fbkk12-5.fna.fbcdn.net/v/t1.15752-9/349390057_579765987605564_3110420198396822254_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEii85X18As4Zwvzy8tRcFlEPKxb_Fa2tUQ8rFv8Vra1SamdxQyr7yvfur1EUNZrlaeDH_dTYZ47d9T4569OALS&_nc_ohc=j1CWM0nTCM8AX8PNAhv&_nc_ht=scontent.fbkk12-5.fna&oh=03_AdTp9DvCoYkc9E-2V7Ee2Pw_lQGb9FJmYMfqFmkxpC1biA&oe=6497DBF8);
+    
+}
+.box6{
+    background-image: url(https://scontent.fbkk8-2.fna.fbcdn.net/v/t1.15752-9/350088341_1360476034530033_755463808489907686_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH2C3DlS3OTaTfslVVt6NjOaV4rXf7NbdZpXitd_s1t1tyAzbjJbbwawaTDnir4gTKO432bwaed68vFi6qy8dmE&_nc_ohc=9ml3PFItTooAX8oi8gj&_nc_ht=scontent.fbkk8-2.fna&oh=03_AdR7r_sZYB6PvttY5RoBTH8wyV4lsqINIWLgE9Qdd_yVDQ&oe=6497D0DC);
+    
+}
+.content h2{
+    position: absolute;
+    bottom: 7px;
+    left: 8px;
+    color: white;
+}
+.content .box1:hover{
+    transform: translateY(15px);
+}
+.content .box2:hover{
+    transform: translateY(15px);
+}
+.content .box3:hover{
+    transform: translateY(15px);
+}
+.content .box4:hover{
+    transform: translateY(15px);
+}
+.content .box5:hover{
+    transform: translateY(15px);
+}
+.content .box6:hover{
+    transform: translateY(15px);
+}
+.legend {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 10px 14px;
+    background-color: hsla(0, 82%, 68%, 0.37) ;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    max-width: 250px;
+    border: 1px solid grey;
+   }
+   .legend p {
+    font-size: 16px;
+    line-height: 24px;
+   }
+   .legend img {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+   }
